@@ -128,7 +128,7 @@ jobs:
             # 获取镜像名例  例如nginx
             image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
             image_version=$(echo "$image_name_tag" | awk -F':' '{print $2}')
-	    new_image_tag=$image_name-$image_version
+            new_image_tag=$image_name-$image_version
         
             name_space_prefix=""
             # 如果镜像名重名
