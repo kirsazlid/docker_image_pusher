@@ -1,1 +1,1 @@
-traefik:v3.6.5
+traefik/whoami
