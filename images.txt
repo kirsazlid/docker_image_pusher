@@ -1,1 +1,1 @@
-nginx
+traefik:v3.6.5
